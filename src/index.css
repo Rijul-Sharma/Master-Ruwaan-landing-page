@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Crimson+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-mystic-dark text-mystic-text-primary font-crimson;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-sage-gradient text-mystic-text-accent font-cinzel px-6 py-3 rounded-lg 
+           border border-sage-600 shadow-lg hover:shadow-xl transition-all duration-300
+           hover:scale-105;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  }
+  
+  .btn-secondary {
+    @apply bg-mystic-moss text-mystic-text-secondary font-crimson px-4 py-2 rounded-md
+           border border-sage-700 hover:bg-sage-700 transition-colors duration-200;
+  }
+  
+  .card {
+    @apply bg-mystic-charcoal border border-sage-700 rounded-lg p-6 shadow-lg
+           hover:shadow-xl transition-shadow duration-300;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl font-cinzel text-mystic-text-accent mb-4;
+  }
+  
+  .section-subtitle {
+    @apply text-lg text-mystic-text-secondary font-crimson mb-8;
+  }
+}
