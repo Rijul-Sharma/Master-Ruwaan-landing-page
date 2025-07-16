@@ -1,3 +1,6 @@
+import headerIcon from './assets/headerIcon.png';
+import loreSectionImage from './assets/loreSectionImage.png';
+
 function App() {
   return (
     <div className="min-h-screen bg-forest-gradient relative overflow-hidden">
@@ -11,7 +14,7 @@ function App() {
           {/* Master Ruwaan Icon/Logo */}
           <div className="mb-8">
             <img 
-              src="/src/assets/headerIcon.png" 
+              src={headerIcon} 
               alt="Master Ruwaan Icon" 
               className="mx-auto mb-6 w-60 h-60 object-contain animate-shimmer" 
               style={{ filter: 'drop-shadow(0 0 6px #2fd07466)' }}
@@ -86,7 +89,7 @@ function App() {
           {/* Lore Image */}
           <div className="flex-shrink-0 flex flex-col items-center md:items-start w-full md:w-1/3 mb-8 md:mb-0">
             <img 
-              src="/src/assets/loreSectionImage.png" 
+              src={loreSectionImage} 
               alt="Master Ruwaan Lore" 
               className="w-full rounded-xl shadow-2xl object-cover" 
             />
