@@ -211,7 +211,7 @@ function App() {
           rel="noopener noreferrer"
           className="btn-primary text-xl px-10 py-5 mt-2 shadow-xl animate-glow text-center"
         >
-          Get it on VS Code Marketplace
+          Get it on VS Marketplace
         </a>
         <p className="text-sage-400 italic mt-8 text-center animate-fade-in">
           "The journey of clarity begins with a single step."
