@@ -42,7 +42,7 @@ function App() {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <button className="btn-primary text-lg px-8 py-4 animate-glow">
-              🌲 Begin Your Journey
+              <a href="https://marketplace.visualstudio.com/items?itemName=rijul-sharma.master-ruwaan" target="_blank" rel="noopener noreferrer" className="block w-full h-full">🌲 Begin Your Journey</a>
             </button>
             {/* <button className="btn-secondary text-lg px-6 py-4">
               📖 Learn the Ways
@@ -183,7 +183,8 @@ function App() {
             {/* Placeholder video embed */}
             <iframe
               className="w-full h-full"
-              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+              // src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+              src="https://www.youtube.com/embed/3WaTPhsYrzA"
               title="Master Ruwaan Demo Video"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -205,7 +206,7 @@ function App() {
           One click, and the forest's wisdom is yours. Install Master Ruwaan and let the sage guide your code.
         </p>
         <a
-          href="#"
+          href="https://marketplace.visualstudio.com/items?itemName=rijul-sharma.master-ruwaan"
           target="_blank"
           rel="noopener noreferrer"
           className="btn-primary text-xl px-10 py-5 mt-2 shadow-xl animate-glow text-center"
@@ -220,9 +221,11 @@ function App() {
       {/* Footer Section */}
       <footer className="relative z-30 bg-mystic-dark text-mystic-text-secondary py-10 px-4 text-center border-t border-sage-800 mt-0">
         <div className="flex flex-col md:flex-row items-center justify-center gap-4 max-w-4xl mx-auto">
-          <span className="font-crimson text-base">Made with <span className="text-emerald">🌲</span> by <span className="font-cinzel">Your Name</span></span>
+          <span className="font-crimson text-base">Developed 
+            {/* <span className="text-emerald">🌲</span> */}
+             by <span className="font-cinzel">Rijul Sharma</span></span>
           <span className="hidden md:inline-block text-sage-400">|</span>
-          <a href="#" target="_blank" rel="noopener noreferrer" className="text-sage-400 hover:text-emerald underline font-cinzel transition">GitHub Repo</a>
+          <a href="https://github.com/Rijul-Sharma/Master-Ruwaan-vscode" target="_blank" rel="noopener noreferrer" className="text-sage-400 hover:text-emerald underline font-cinzel transition">GitHub Repo</a>
         </div>
         <div className="mt-6 text-sage-400 italic text-sm font-crimson animate-fade-in">
           “May your code grow tall and your bugs fall like autumn leaves.”
